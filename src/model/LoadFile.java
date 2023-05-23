@@ -4,7 +4,7 @@
  * Copyright: 2023 Móra Barna
  * Group: Szoft_I_1_N
  * Date: 2023.05.23
- * Github: 
+ * Github: https://github.com/MrBrown16/berkft.git
  * Licence: GNU GPL
  */
 

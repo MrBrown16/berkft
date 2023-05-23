@@ -4,7 +4,7 @@
  * Copyright: 2023 Móra Barna
  * Group: Szoft_I_1_N
  * Date: 2023.05.23
- * Github: 
+ * Github: https://github.com/MrBrown16/berkft.git
  * Licence: GNU GPL
  */
 
@@ -31,6 +31,7 @@ public class MainFrame extends JFrame {
     InputPanel addressPanel;
     InputPanel birthdayPanel;
     InputPanel salaryPanel;
+    JLabel me;
     
     public MainFrame() {
         initComponent();
@@ -50,6 +51,7 @@ public class MainFrame extends JFrame {
         addressPanel = new InputPanel();
         birthdayPanel = new InputPanel();
         salaryPanel = new InputPanel();
+        me = new JLabel("Móra Barna Szoft_I_1_N 2023.05.23");
         
     }
     
@@ -77,6 +79,7 @@ public class MainFrame extends JFrame {
         this.add(birthdayPanel);
         this.add(salaryPanel);
         this.add(buttoPanel);
+        this.add(me);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(400,300);
         this.setVisible(true);
